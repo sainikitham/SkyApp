@@ -1,0 +1,45 @@
+.section-primary,.section-light{
+  margin: 0px;
+}
+.device-small{
+  width: 70% !important;
+  margin-bottom: -30px;
+}
+.no-pad{
+  margin: 0px !important;
+}
+.carousel{
+  margin-bottom: 20px;
+  margin-top: 30px;
+  border: 2px solid grey;
+}
+// .section-main-bl .block-primary-head img{
+//   width: 30% !important;
+// }
+.col-md-4.col-md-4-rc{
+  padding: 0 !important;
+}
+.block-r .block-content li img{
+  margin-right: 10px !important;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+.list-comments{
+  li{
+    padding: 0px;
+    p{
+      text-align: left;
+    }
+  }
+  li:last-child{
+    border: 0;
+  }
+}
+.list-comments li {
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+.list-comments li p {
+    text-align: left;
+    margin-top: 10%;
+}

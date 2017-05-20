@@ -1,0 +1,45 @@
+
+.showcase{
+  background: url("../img/showcase.jpg");
+  margin-top: 80px;
+}
+.navbar{
+  margin-left: 5%;
+  margin-right: 5%;
+  background: #F8F8F3;
+}
+.showcase-content{
+  padding: 120px;
+  h1{
+    color: #297CDE;
+    font-size: 2.2em;
+    text-align: center;
+  }
+}
+.top-inner{
+  margin-top: 51px !important;
+}
+.navbar-inverse .navbar-nav > li > a{
+  color: #3498db !important;
+
+}
+.navbar-inverse .navbar-nav > li > a:hover{
+  color: white !important;
+  background: #3498db;
+
+}
+.section-light{
+   background: #CEF8FA;
+   padding: 30px;
+   input[type="search"]{
+     width: 80%;
+     height: 50px;
+     border: 2px solid #0D8BFB;
+   }
+   button{
+      background: none;
+      border: 0;
+      margin-left: -10px;
+
+   }
+}

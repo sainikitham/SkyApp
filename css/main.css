@@ -1,0 +1,439 @@
+/* base */
+/* line 2, /var/www/html/abc/skyapp/scss/base/_base.scss */
+.showcase {
+  background: url("../img/showcase.jpg");
+  margin-top: 80px;
+}
+
+/* line 6, /var/www/html/abc/skyapp/scss/base/_base.scss */
+.navbar {
+  margin-left: 5%;
+  margin-right: 5%;
+  background: #F8F8F3;
+}
+
+/* line 11, /var/www/html/abc/skyapp/scss/base/_base.scss */
+.showcase-content {
+  padding: 120px;
+}
+
+/* line 13, /var/www/html/abc/skyapp/scss/base/_base.scss */
+.showcase-content h1 {
+  color: #297CDE;
+  font-size: 2.2em;
+  text-align: center;
+}
+
+/* line 19, /var/www/html/abc/skyapp/scss/base/_base.scss */
+.top-inner {
+  margin-top: 51px !important;
+}
+
+/* line 22, /var/www/html/abc/skyapp/scss/base/_base.scss */
+.navbar-inverse .navbar-nav > li > a {
+  color: #3498db !important;
+}
+
+/* line 26, /var/www/html/abc/skyapp/scss/base/_base.scss */
+.navbar-inverse .navbar-nav > li > a:hover {
+  color: white !important;
+  background: #3498db;
+}
+
+/* line 31, /var/www/html/abc/skyapp/scss/base/_base.scss */
+.section-light {
+  background: #CEF8FA;
+  padding: 30px;
+}
+
+/* line 34, /var/www/html/abc/skyapp/scss/base/_base.scss */
+.section-light input[type="search"] {
+  width: 80%;
+  height: 50px;
+  border: 2px solid #0D8BFB;
+}
+
+/* line 39, /var/www/html/abc/skyapp/scss/base/_base.scss */
+.section-light button {
+  background: none;
+  border: 0;
+  margin-left: -10px;
+}
+
+/* line 1, /var/www/html/abc/skyapp/scss/base/_normalize.scss */
+.section-primary, .section-primary-a, .section-light {
+  margin: 0px;
+}
+
+/* line 4, /var/www/html/abc/skyapp/scss/base/_normalize.scss */
+.device-small {
+  width: 70% !important;
+  margin-bottom: -30px;
+}
+
+/* line 8, /var/www/html/abc/skyapp/scss/base/_normalize.scss */
+.no-pad {
+  margin: 0px !important;
+}
+
+/* line 11, /var/www/html/abc/skyapp/scss/base/_normalize.scss */
+.carousel {
+  margin-bottom: 20px;
+  margin-top: 30px;
+  border: 2px solid grey;
+}
+
+/* line 19, /var/www/html/abc/skyapp/scss/base/_normalize.scss */
+.col-md-4.col-md-4-rc {
+  padding: 0 !important;
+}
+
+/* line 22, /var/www/html/abc/skyapp/scss/base/_normalize.scss */
+.block-r .block-content li img {
+  margin-right: 10px !important;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+/* line 28, /var/www/html/abc/skyapp/scss/base/_normalize.scss */
+.list-comments li {
+  padding: 0px;
+}
+
+/* line 30, /var/www/html/abc/skyapp/scss/base/_normalize.scss */
+.list-comments li p {
+  text-align: left;
+}
+
+/* line 34, /var/www/html/abc/skyapp/scss/base/_normalize.scss */
+.list-comments li:last-child {
+  border: 0;
+}
+
+/* line 38, /var/www/html/abc/skyapp/scss/base/_normalize.scss */
+.list-comments li {
+  margin-top: 0%;
+  margin-bottom: 0%;
+}
+
+/* line 42, /var/www/html/abc/skyapp/scss/base/_normalize.scss */
+.list-comments li p {
+  text-align: left;
+  margin-top: 10%;
+}
+
+/* layouts */
+/* line 1, /var/www/html/abc/skyapp/scss/layouts/_footer.scss */
+.footer-main {
+  margin-top: 0;
+  background: #82A35F;
+  color: white !important;
+  padding: 30px;
+  border-top: 5px solid blue;
+  font-size: 1.1em;
+}
+
+/* line 8, /var/www/html/abc/skyapp/scss/layouts/_footer.scss */
+.footer-main li {
+  list-style: none;
+  line-height: 1.8em;
+}
+
+/* line 11, /var/www/html/abc/skyapp/scss/layouts/_footer.scss */
+.footer-main li a {
+  color: #262F8E;
+}
+
+/* line 15, /var/www/html/abc/skyapp/scss/layouts/_footer.scss */
+.footer-main ul {
+  margin: 0;
+  padding: 0;
+}
+
+/* modules */
+/* line 1, /var/www/html/abc/skyapp/scss/modules/_buttons.scss */
+.fa-6 {
+  font-size: 30px;
+  color: #3498db !important;
+}
+
+/* line 5, /var/www/html/abc/skyapp/scss/modules/_buttons.scss */
+span {
+  font-size: 120%;
+}
+
+/* line 2, /var/www/html/abc/skyapp/scss/modules/_blocks.scss */
+.block, .block-v {
+  padding: 15px;
+  color: white;
+  background: #0DD0FB;
+  margin: 20px;
+  width: 95%;
+  float: left;
+}
+
+/* line 10, /var/www/html/abc/skyapp/scss/modules/_blocks.scss */
+.block-v {
+  width: 100%;
+}
+
+/* line 13, /var/www/html/abc/skyapp/scss/modules/_blocks.scss */
+.block-v .block-content {
+  text-align: center;
+}
+
+/* line 17, /var/www/html/abc/skyapp/scss/modules/_blocks.scss */
+.block.block-center.block-image, .block-center.block-image.block-v {
+  text-align: center;
+}
+
+/* line 20, /var/www/html/abc/skyapp/scss/modules/_blocks.scss */
+.block.block-primary-head.no-pad, .block-primary-head.no-pad.block-v {
+  width: 100%;
+}
+
+/* line 23, /var/www/html/abc/skyapp/scss/modules/_blocks.scss */
+.block-r {
+  padding: 15px;
+  color: black;
+  background: white;
+  margin: 20px;
+  float: left;
+  width: 100%;
+}
+
+/* line 30, /var/www/html/abc/skyapp/scss/modules/_blocks.scss */
+.block-r .block-content {
+  text-align: center;
+}
+
+/* line 32, /var/www/html/abc/skyapp/scss/modules/_blocks.scss */
+.block-r .block-content li {
+  border-bottom: 1px solid black;
+  list-style: none;
+}
+
+/* line 35, /var/www/html/abc/skyapp/scss/modules/_blocks.scss */
+.block-r .block-content li img {
+  float: left;
+}
+
+/* line 42, /var/www/html/abc/skyapp/scss/modules/_blocks.scss */
+.block-primary {
+  background: #0DD0FB;
+}
+
+/* line 45, /var/www/html/abc/skyapp/scss/modules/_blocks.scss */
+.block-secondary {
+  background: #43BF43;
+}
+
+/* line 49, /var/www/html/abc/skyapp/scss/modules/_blocks.scss */
+.block-light {
+  background: #E9F1E9;
+  color: black;
+  width: 95%;
+  text-align: center;
+}
+
+/* line 54, /var/www/html/abc/skyapp/scss/modules/_blocks.scss */
+.block-light i {
+  font-size: 40px;
+}
+
+/* line 59, /var/www/html/abc/skyapp/scss/modules/_blocks.scss */
+.block-image img {
+  width: 100%;
+}
+
+/* line 63, /var/www/html/abc/skyapp/scss/modules/_blocks.scss */
+.space-top {
+  margin: 0px;
+  margin-bottom: 0px;
+}
+
+/* line 67, /var/www/html/abc/skyapp/scss/modules/_blocks.scss */
+.section-primary, .section-primary-a {
+  background: #3498db;
+  padding: 30px;
+}
+
+/* line 70, /var/www/html/abc/skyapp/scss/modules/_blocks.scss */
+.section-primary img, .section-primary-a img {
+  width: 100%;
+}
+
+/* line 73, /var/www/html/abc/skyapp/scss/modules/_blocks.scss */
+.section-primary .col-md-6-left, .section-primary-a .col-md-6-left {
+  color: white;
+  margin-top: 7%;
+}
+
+/* line 77, /var/www/html/abc/skyapp/scss/modules/_blocks.scss */
+.section-primary .btn, .section-primary-a .btn {
+  text-align: center;
+}
+
+/* line 81, /var/www/html/abc/skyapp/scss/modules/_blocks.scss */
+.section-primary-a {
+  border-top: 5px solid green;
+  color: white;
+}
+
+/* line 89, /var/www/html/abc/skyapp/scss/modules/_blocks.scss */
+.section-main-bl .block-primary-head .block-content {
+  width: 100% !important;
+}
+
+/* line 92, /var/www/html/abc/skyapp/scss/modules/_blocks.scss */
+.section-main-bl .block-primary-head img {
+  width: 100%;
+}
+
+/* line 97, /var/www/html/abc/skyapp/scss/modules/_blocks.scss */
+.tab.tab-light {
+  margin-bottom: 30px;
+}
+
+/* line 100, /var/www/html/abc/skyapp/scss/modules/_blocks.scss */
+.blog-post {
+  border: 1px solid black;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+/* line 105, /var/www/html/abc/skyapp/scss/modules/_blocks.scss */
+.blog-featured {
+  float: left;
+  padding: 10px;
+  margin-right: 15px;
+}
+
+/* line 110, /var/www/html/abc/skyapp/scss/modules/_blocks.scss */
+.post-meta {
+  padding: 10px;
+  background: lightgrey;
+  margin-top: 0;
+  border: 1px solid black;
+}
+
+/* line 1, /var/www/html/abc/skyapp/scss/modules/_typography.scss */
+.primary-color {
+  color: #2F7FDE;
+}
+
+/* line 4, /var/www/html/abc/skyapp/scss/modules/_typography.scss */
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
+  color: white;
+  background: #3498db;
+}
+
+/* line 8, /var/www/html/abc/skyapp/scss/modules/_typography.scss */
+.tab-pane {
+  padding: 15px;
+  border: 5px;
+  color: white;
+  background: #3498db;
+}
+
+/* line 14, /var/www/html/abc/skyapp/scss/modules/_typography.scss */
+iframe {
+  width: 100%;
+}
+
+/* line 19, /var/www/html/abc/skyapp/scss/modules/_typography.scss */
+.block-icon .icon {
+  float: left;
+  color: white !important;
+  margin-top: 10px;
+}
+
+/* line 24, /var/www/html/abc/skyapp/scss/modules/_typography.scss */
+.block-icon .icon-content {
+  float: left;
+  width: 70%;
+  margin-left: 20px;
+  margin-top: -10px;
+}
+
+/* line 2, /var/www/html/abc/skyapp/scss/modules/_sections.scss */
+.section-light img {
+  width: 100%;
+}
+
+/* line 6, /var/www/html/abc/skyapp/scss/modules/_sections.scss */
+.navbar-brand {
+  color: #3498db !important;
+  font-weight: bold;
+}
+
+/* line 10, /var/www/html/abc/skyapp/scss/modules/_sections.scss */
+.col-md-4.block-c {
+  margin-top: 100px !important;
+  border: 1px solid #7db4f5;
+  padding: 5px !important;
+  padding-left: 45px !important;
+}
+
+/* line 1, /var/www/html/abc/skyapp/scss/modules/_components.scss */
+.list-feature {
+  width: 80%;
+}
+
+/* line 3, /var/www/html/abc/skyapp/scss/modules/_components.scss */
+.list-feature li {
+  line-height: 2.2em;
+  border-bottom: 1px solid grey;
+  font-size: 1.5em;
+  color: #bdc3c7;
+  padding: 5px;
+  list-style: none;
+  left: 0;
+}
+
+/* line 12, /var/www/html/abc/skyapp/scss/modules/_components.scss */
+.list-feature i {
+  color: black;
+}
+
+/* line 16, /var/www/html/abc/skyapp/scss/modules/_components.scss */
+.list {
+  position: relative;
+  left: -50px;
+}
+
+/* line 20, /var/www/html/abc/skyapp/scss/modules/_components.scss */
+.em-primary {
+  color: #3498db;
+}
+
+/* line 23, /var/www/html/abc/skyapp/scss/modules/_components.scss */
+.showcase-content {
+  text-align: center;
+  font-size: 1.2em;
+}
+
+/* line 27, /var/www/html/abc/skyapp/scss/modules/_components.scss */
+.section-main, .section-main-bl, .section-main-a {
+  padding: 15px;
+  padding-bottom: -5px;
+  margin: 0;
+}
+
+/* line 31, /var/www/html/abc/skyapp/scss/modules/_components.scss */
+.section-main .col-md-4, .section-main-bl .col-md-4, .section-main-a .col-md-4 {
+  padding: 30px;
+}
+
+/* line 34, /var/www/html/abc/skyapp/scss/modules/_components.scss */
+.section-main .pull-top, .section-main-bl .pull-top, .section-main-a .pull-top {
+  padding: 0px;
+}
+
+/* line 41, /var/www/html/abc/skyapp/scss/modules/_components.scss */
+.section-main-a .col-md-4 {
+  padding: 0px;
+  padding-left: 30px;
+}
+
+/*# sourceMappingURL=../css/main.map */

@@ -1,0 +1,19 @@
+.footer-main{
+  margin-top: 0;
+background: #82A35F;
+color: white !important;
+padding: 30px;
+border-top: 5px solid blue;
+font-size: 1.1em;
+  li{
+    list-style: none;
+    line-height: 1.8em;
+    a{
+      color: #262F8E;
+    }
+  }
+  ul{
+    margin: 0;
+    padding: 0;
+  }
+}

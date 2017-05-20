@@ -1,0 +1,30 @@
+.primary-color{
+  color: #2F7FDE;
+}
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus{
+   color: white;
+   background: #3498db;
+}
+.tab-pane{
+    padding: 15px;
+    border: 5px;
+    color: white;
+    background: #3498db;
+}
+iframe{
+  width: 100%;
+}
+
+.block-icon{
+  .icon{
+    float: left;
+    color: white !important;
+    margin-top: 10px;
+  }
+  .icon-content{
+    float: left;
+    width: 70%;
+    margin-left: 20px;
+    margin-top: -10px;
+  }
+}
